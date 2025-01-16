@@ -5,7 +5,7 @@ const postCount = 21;
 
 // // modern method 
 // console.log(`hello, my name is ${name} and y post count is ${postCount}`);
-
+// methods
 const bgmiId = new String(`ravi-2802`)
 console.log(bgmiId[0]);// index
 
