@@ -1,6 +1,6 @@
 let  date = new Date()// date object
-// console.log(date.toDateString());
-// console.log(date.toString());
+console.log(date.toDateString());
+console.log(date.toString());
 console.log(date.toLocaleTimeString());
 console.log(date.toString());
 console.log(date.toJSON());
