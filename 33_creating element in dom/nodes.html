@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom nodelidst</title>
+</head>
+<body>
+
+</body>
+<script>
+     let div = document.createElement('div')
+    console.log(div);
+    div.id = Math.round(Math.random()*10+1)
+    div.className = "baap"
+    div.setAttribute("title" , "dom manupulation on crazy level")
+    div.style.backgroundColor = "red"
+    div.style.padding = "10px"
+   const text = document.createTextNode("ravi rohra dom")
+   div.appendChild(text)
+   document.body.appendChild(div)
+</script>
+</html>
