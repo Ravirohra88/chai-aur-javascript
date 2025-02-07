@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>async </title>
+</head>
+<body>
+   <h1> async code </h1>
+   <button id="cancel">cancel</button>
+</body>
+<script>
+    const Ravi = function () {
+        console.log("ravi rohra");
+        
+    }
+    const changeAsync =  function () {
+        document.querySelector('h1').innerHTML ="async projects "
+    }
+
+      const change = setTimeout(changeAsync,5000)
+      document.querySelector('#cancel').addEventListener('click',function(){
+        clearTimeout(change)
+        console.log("clear timeout");
+        
+      })
+    
+</script>
+</html>
